@@ -4,35 +4,32 @@
   padding: 0px;
   margin: 0px;
 }
-body {
-  height: 100%;
+
+body,
+html {
   font-family: "Playfair Display", serif;
   font-size: medium;
   overflow: hidden;
+  background-image: url(https://singularityhub.com/wp-content/uploads/2020/06/SpaceX-offshore-launchpads-Starship.jpg);
 }
 .main {
-  border: solid 1px black;
-  margin: 2%;
+  padding: 2%;
 }
 .mainbox {
-  border: solid 1px black;
-  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: transparent;
 }
 .box1 {
-  border: solid 1px black;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 .mainbox2 {
-  border: solid 2px black;
   display: flex;
   justify-content: space-around;
+  background-color: white;
 }
 .boxbottom1 {
-  border: solid 2px rgb(212, 19, 19);
-  background-color: bisque;
 }
 .boxbottom2 {
   border: solid 1px black;
