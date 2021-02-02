@@ -4,36 +4,53 @@
   padding: 0px;
   margin: 0px;
 }
+html,
+body {
+  height: 100%;
+  font-weight: 100;
+  font-family: Playfair Display, sans-serif;
+}
 
-body,
-html {
-  font-family: "Playfair Display", serif;
-  font-size: medium;
-  overflow: hidden;
-  background-image: url(https://singularityhub.com/wp-content/uploads/2020/06/SpaceX-offshore-launchpads-Starship.jpg);
+/* MAIN BOX -------------------- */
+.topbox {
+  border: solid 1px black;
+  height: 75%;
+  background-image: url(https://cms.qz.com/wp-content/uploads/2018/02/spacex-falcon-heavy-elon-musk-china-europe-esa-nasa-mars-sls-boeing.jpg?quality=75&strip=all&w=1600&h=900&crop=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 5%;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 .bio {
-  color: aliceblue;
+  color: wheat;
+  letter-spacing: 5px;
+  box-shadow: 5px 10px 30px black;
 }
-.main {
-  padding: 2%;
-}
-.mainbox {
+
+/* Inside BOX -------------------- */
+.insidebox1 {
+  height: 100%;
+  width: 25%;
+  margin-right: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: transparent;
-  margin-bottom: 5%;
+  justify-content: center;
 }
-.box1 {
-  background-color: rgb(255, 255, 255);
+.elonprofile {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg);
+  height: 75%;
+  width: 75%;
+  margin-top: 5%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 10px 30px black;
 }
-.mainbox2 {
-  display: flex;
-  justify-content: space-around;
-  box-shadow: 5px 5px 15px black;
-}
-.boxbottom2 {
-  border: solid 1px black;
-  background-color: aqua;
+.elon {
+  color: antiquewhite;
+  letter-spacing: 10px;
 }
