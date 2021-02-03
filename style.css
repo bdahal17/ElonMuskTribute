@@ -9,7 +9,13 @@ body {
   height: 100%;
 }
 
-/* MAIN BOX -------------------- */
+/* MAIN Top BOX -------------------- */
+
+/* MAIN Top BOX -------------------- */
+
+/* MAIN Top BOX -------------------- */
+
+/* MAIN TOP BOX -------------------- */
 .topbox {
   height: 70%;
   background-image: url(https://i.pinimg.com/originals/1f/e5/a1/1fe5a1c81e07af666d6c00e4eb76c0df.jpg);
@@ -30,7 +36,13 @@ body {
   border-radius: 10px;
 }
 
-/* Inside TOPBOX -------------------- */
+/*TOPBOX ------CONTENT-------------- */
+
+/*TOPBOX ------CONTENT-------------- */
+
+/*TOPBOX ------CONTENT-------------- */
+
+/*TOPBOX ------CONTENT-------------- */
 .insidebox1 {
   height: 100%;
   width: 20%;
@@ -60,7 +72,13 @@ body {
   padding: 2%;
   box-shadow: 5px 5px 20px rgb(94, 90, 90);
 }
-/*  MIDDLEBOX -------------------- */
+/*  MIDDLEBOX --------Content------------ */
+
+/*  MIDDLEBOX --------Content------------ */
+
+/*  MIDDLEBOX --------Content------------ */
+
+/*  MIDDLEBOX --------Content------------ */
 .middlebox {
   height: 150%;
   display: flex;
@@ -72,17 +90,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.middlebox ul li h2 {
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
 .paypal,
 .tesla,
 .spacex {
-  background-color: rgb(214, 135, 82);
+  background-color: rgb(211, 210, 209);
   height: 20%;
   width: 60%;
-  animation: moveIn 5.7s infinite;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 10px;
+}
+.paypal {
+  animation: moveIn 5.3s infinite;
+}
+.tesla {
+  animation: moveIn 5.7s infinite;
+}
+.spacex {
+  animation: moveIn 5.5s infinite;
 }
 @keyframes moveIn {
   0%,
@@ -95,32 +126,59 @@ body {
 }
 
 /* PAYPAL ---------------- */
-
+/* PAYPAL ---------------- */
 .paypalLogo {
-  background-image: url(https://cdn-images-1.medium.com/max/1200/1*Dw4-tOJ_9myFUywLd3qzjA.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-}
-.paypalInfo {
+  background-image: url(https://cdn.dribbble.com/users/1525393/screenshots/6448182/comp_3.gif);
+  background-position: -15px;
 }
 /* tesla ---------------- */
+/* tesla ---------------- */
 .teslaLogo {
-  background-image: url(https://cdn-images-1.medium.com/max/1200/1*Dw4-tOJ_9myFUywLd3qzjA.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100px;
-  width: 100px;
+  background-image: url(https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/d7fa5c32-3e17-4041-9ff8-e5827ff120cc);
+  background-position: -35px;
 }
 /* spacex ---------------- */
+/* spacex ---------------- */
 .spacexLogo {
-  background-image: url(https://cdn-images-1.medium.com/max/1200/1*Dw4-tOJ_9myFUywLd3qzjA.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100px;
-  width: 100px;
+  background-image: url(https://yt3.ggpht.com/ytc/AAUvwnifgXHHC6YlnrDKnrMWk23FKLfLYJdSb8Odj1KQ6uI=s900-c-k-c0x00ffffff-no-rj);
 }
+
+/* spacex , TESLA, PAYPAL---------------- */
+
+/* spacex , TESLA, PAYPAL---------------- */
+
+/* spacex , TESLA, PAYPAL---------------- */
+.spacexLogo,
+.teslaLogo,
+.paypalLogo {
+  box-shadow: 5px 5px 20px black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.spacexInfo,
+.teslaInfo,
+.paypalInfo {
+  border: solid 2px white;
+  padding: 2%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(129, 49, 233);
+}
+
+/*  bottom box -------------------- */
+
+/*  bottom box -------------------- */
+
+/*  bottom box -------------------- */
+
+/*  bottom box -------------------- */
+
+/*  bottom box -------------------- */
+
+/*  bottom box -------------------- */
 
 /*  bottom box -------------------- */
 .bottombox {
@@ -138,7 +196,7 @@ body {
   margin-left: 5%;
   animation: pulse 0.2s infinite;
   cursor: pointer;
-  box-shadow: 10px 10px 20px rgb(233, 159, 49);
+  box-shadow: 10px 10px 20px rgb(129, 49, 233);
   padding: 1%;
   border-radius: 20px;
 }
@@ -169,6 +227,10 @@ body {
   height: 100px;
   box-shadow: 5px 5px 20px black;
 }
+
+/*--------------------------Animation---------------------------------*/
+/*--------------------------Animation---------------------------------*/
+/*--------------------------Animation---------------------------------*/
 .bottombox .creator:hover + .hiddenInfoBox {
   display: block;
 }
@@ -181,6 +243,10 @@ body {
     color: rgb(214, 135, 82);
   }
 }
+/*   LIST  */
+/*   LIST  */
+/*   LIST  */
+/*   LIST  */
 /*   LIST  */
 
 ul li {
