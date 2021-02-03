@@ -7,39 +7,42 @@
 html,
 body {
   height: 100%;
-  font-weight: 100;
-  font-family: Playfair Display, sans-serif;
 }
 
 /* MAIN BOX -------------------- */
 .topbox {
-  border: solid 1px black;
-  height: 75%;
-  background-image: url(https://cms.qz.com/wp-content/uploads/2018/02/spacex-falcon-heavy-elon-musk-china-europe-esa-nasa-mars-sls-boeing.jpg?quality=75&strip=all&w=1600&h=900&crop=1);
+  height: 70%;
+  background-image: url(https://i.pinimg.com/originals/1f/e5/a1/1fe5a1c81e07af666d6c00e4eb76c0df.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  padding: 5%;
   align-items: center;
   justify-content: space-evenly;
+  padding: 5%;
 }
 
 .bio {
-  color: wheat;
+  color: rgb(214, 135, 82);
   letter-spacing: 5px;
-  box-shadow: 5px 10px 30px black;
+  box-shadow: 5px 5px 10px rgb(233, 159, 49);
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw4NDQ0NDQ0NDQ0NCA0ODQgNDQ8NDQgNFREWFhURFRMYHTQgGBolGxMVITEhJSkrLi4uFx8zOD8tNygtLisBCgoKDQ0NDw0NDysZFRktNys3NzcrLS0rLSstNzctLS0rKystKysrKystLSstKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QALRAAAgIBAgUEAQQCAwAAAAAAAAECEQMEURITITFBYXGRoSIUUoGxQtEjYnL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A+QJFJAkWkaZJIzk+ptLsYxjbKNYo0SIjApQYRaQ6JSY+oDaIeSh2yuXYErOilmQnhE8AGiyopTRzvCLlMqOviW5jndmPBLc64Q6dQMoRNEi+EdATQFUFATQp9i6MsrAyUbZooDxosCOAXAagBjwsTs2JaAlIKLoTQGbQmjRoloDJozkjdohoiuScDNxOyUSHAiuWhUdDgTwAdCRSRyrKy453dFGmZ+B40bKN9ylBBExRaQ1EfCVCoKK4Q4QIS6mtEwRYCoKGACoTRQmBKj1NCYIoAAAKAAACcjpHNF2zTUy8CxEGkUUCGAgGACYkgKAQihUBLJaNKJaAzaJo0kiFJbgS0Q0aktEVk0Q0bNEtAYcovDi/I1o0xREFpFJCRSKgQwGACyOk2UYaqXZAYx1TXSjRatbEwxovkoiqWpiUs8dzPkIl6cqOhZFuKUluc7wEyxteQNf1NdKKWpRxWFkqx3rURKWWO551jstI9JTW47PM4hwm20k+4pG2R3I1ggjgryaKAQ0NCoYAJjJYDiUKKGAgAAAQxAY6l0vc41ie505ncq2KjEiuXgluL8zsoTiIOPjkLnPY6nEzcEBo4kx1C2KzyqLOCLA9FaiPqWs0dzz0ykxSPRWSO6KTW55tjTFI9I5JvikzJTe7NcSKNoItCiiggHQAAqM83atzUyl1l7AZrEJ4jooVAczxEvEddCcQON4jTSYvyvY1aNcUaXuFWAAVAAAACXcGESBgAFAAAAickuFWWc2pdtRIM8fVt+pukKEEXQEiZVCaAhmbNGjNkVnqXbSJjjBdW36m8UBnyg5R0JD4QOblCeI6uEHEQrmxYm5LbudqiTij3ZoVBQUMACgAGAhKCX8jiMBUFDAomhNFgQYy9enqaqS8NfJz66X40u7f0caT2A9UDzFJrcpZpL/JirHogcK1Et/opaqXoKkdTKOKeobXavVMlZpfuYqx3gcS1Mt18FLVPZfYqOsDmWr3j9lLVR2f0BuzjTuTfqaZM8XFpd/YnFEDWJQIYCJZTEwIZDNGSBz4oM3ihQNERQhjQyoQpF0ZamfBHi7viVIDaKpDOOOt/wCv2aLVx2f0KOgDFamHqv4KWeH7l/QGgmxKafZr5QpyS6vtfcC0BCzR/cv6KUk+zXyihgAAAATklSb2QHNk/Kb2XQ0UCMMTdIgz5YniRtQUBg8KJeBHTQUBwZsdVXdsjhZ1SXFJ+nT/AGVwEVx0wOt4yXjA5rFZ0vES8QGeJWzshEjTYqTe7+jeioQwBgITGJgSyTHV5nFxS83Zj+ql6fBFjqiaIiJSKi0UShgUcWt/JqOx2N0r2Rxw6tt+WBksDHyWdcYlcJItcXLYuF7HdwC4BCuF3saafHx3sl8s6JQNMMKXv1BWD0/qS8DOygoqOLlSXYP+ReX8nZQcIHJzci8v4QPLKXR9r2o6uE49bfElHx1fgK6saNEebGWReZfNlrPkW/wgR3gcS1c/KXwxrW7xXyKkdgpypN7I5lrY+Yv6Zvjkskbp1fZ9OwE4o0vXz7l0VwhQE0Ki6FQEUJxLaKigElXQChAIBiYCZLKZlkl0ddWBztcUm/Wl7D5SLhGkURSV7/RSv0/oSKQDTe3wylL0f0JFIqMdRlVNLu66dugYl0Fpvyc5/unS/wDK6HRQCQx0OgEIqgoDNq+hqYzyxg1xPuulDWpg/P0wNQIWWL/yXyUmt0EMAAKT6dfQ5Ma4m5PyzqnHiTV1fkmOGvIEqI+BF8IUBm8aJeFbG1CYHNLTx2OrHDhikvCJUepoAAAgAGAmwEWRDcsAEAAIAEwFJ0ZQ/vqPK/G7AAYgZNkUky0zJSLTA0RGonUXXd9F7saZnL8pxXiPV+4G+KPDFLZUWQmUmVFDJsYDAROWdRb9AOPNHmTb8Lohfp3ub4Y9DZIiuJ4GTypHfwg4iFcH5rf5HHLktK31Z2OIY4dbA2QABUAABQCbGSQUgACgAAIChOIyMkqTfoByy1LUml2TKWqexxtNtv1KSZKrsWqWw/1ETi6hYpHdzo7j5i3OCwsUjru37FM41ka7MfPYHS2Q2Y89hzvQDNY/UajLctMpMis7mvJ1Y+3Xv5MkaJlRqmNEJjTKjQZCY0wKMM8raj69TWUqRni3AuBYkMAABMANEZxLAYCGAAAAJiiTllSOFaiSYHpAcMdUy1qvQUjqA51qUUtQgNjn1UulF85HPN8UgCEC+AcUURWbgS4GwmBg8ZLgbsyyvp7gc3UTs2URNEVi2KzVonhAtMqwACostMAKi0ykwABplWICicsvBUAAC0x2ABBZLYABcRgADAQAMBABz6mXgzjjACKrlIHhQAVCeEl4gAily2VjiAAaodiAAslsYAQ2ZTdv2AAAlsAIqWSAAf/Z);
+  font-size: 250%;
 }
 
-/* Inside BOX -------------------- */
+/* Inside TOPBOX -------------------- */
 .insidebox1 {
   height: 100%;
-  width: 25%;
+  width: 20%;
   margin-right: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: solid 2px white;
+  background-color: white;
+  box-shadow: 10px 10px 20px rgb(233, 159, 49);
 }
+
 .elonprofile {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg);
   height: 75%;
@@ -51,6 +54,111 @@ body {
   box-shadow: 5px 10px 30px black;
 }
 .elon {
-  color: antiquewhite;
-  letter-spacing: 10px;
+  color: rgb(214, 135, 82);
+  letter-spacing: 7px;
+  padding: 2%;
+  box-shadow: 5px 5px 20px rgb(94, 90, 90);
+}
+/*  MIDDLEBOX -------------------- */
+.middlebox {
+  height: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(https://cdn57.androidauthority.net/wp-content/uploads/2018/02/Space-X-falcon-heavy-space-rocket-Quad-HD-wallpapers-2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Inside MIDDLEBOX -------------------- */
+.paypal {
+  background-color: salmon;
+  height: 20%;
+  width: 60%;
+}
+.tesla {
+  background-color: royalblue;
+  height: 20%;
+  width: 60%;
+}
+.spacex {
+  background-color: rebeccapurple;
+  height: 20%;
+  width: 60%;
+}
+/*  bottom box -------------------- */
+.bottombox {
+  background-image: url(https://i.pinimg.com/originals/1f/e5/a1/1fe5a1c81e07af666d6c00e4eb76c0df.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 25%;
+  color: rgb(214, 135, 82);
+  display: flex;
+  align-items: center;
+}
+.creator {
+  margin-right: auto;
+  margin-left: 5%;
+  animation: pulse 1s infinite;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgb(233, 159, 49);
+  padding: 1%;
+  border-radius: 20px;
+}
+.hiddenInfoBox {
+  display: none;
+  margin-right: 5%;
+  border: solid 2px white;
+  background-color: white;
+  box-shadow: 10px 10px 20px rgb(233, 159, 49);
+  width: 50%;
+  height: 75%;
+  border-radius: 20px;
+}
+.infobox {
+  background-color: white;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+.bishnuProfile {
+  background-image: url(https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/75402302_175337023586909_3322157315125149696_n.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=_sMlWu9-aNwAX_hon3l&_nc_ht=scontent-lga3-2.xx&oh=eebfa0198dc0b431c5f2556a2b049cdc&oe=60416916);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.bottombox .creator:hover .hiddenInfoBox {
+  display: block;
+}
+@keyframes pulse {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+
+  100% {
+    color: rgb(214, 135, 82);
+  }
+}
+/*   LIST  */
+
+ul li {
+  list-style-type: none;
+}
+.nameBishnu {
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 5%;
+  box-shadow: 2px 2px 5px orange;
+  border-radius: 10px;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  outline: 0;
 }
