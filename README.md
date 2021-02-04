@@ -8,4 +8,4 @@
 
 - ## Responsive design
 
-![Image of Yaktocat](images\Capture.PNG)
+![Image of Yaktocat](https://github.com/bdahal17/ElonMuskTribute/blob/master/images/Capture.PNG?raw=true)
