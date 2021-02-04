@@ -1,11 +1,11 @@
-#Elon Musk Tribute Webpage/w Css Animations
+# Elon Musk Tribute Webpage/w Css Animations
 
-- ######Created only using html and css
+- ###### Created only using html and css
 
-- ######Animation created with css
+- ###### Animation created with css
 
-- ######Use of flexbox to manipulate page layout
+- ###### Use of flexbox to manipulate page layout
 
-- ######Responsive design
+- ###### Responsive design
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](C:\Users\bdaha\OneDrive\Desktop\old\code1\images\Capture.PNG)
